@@ -1,0 +1,27 @@
+.containe{
+    height: 100vh;
+    padding-top: 20px;
+    .spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .book_card{
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 18px;
+        }
+        span{
+            font-weight: bold;
+        }
+        .des{
+            text-align: justify;
+        }
+    }
+    
+}

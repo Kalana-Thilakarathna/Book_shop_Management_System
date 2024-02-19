@@ -1,0 +1,58 @@
+.containe {
+    margin-top: 20px;
+    height: 100vh;
+  
+    .btn_no_link_style {
+      transition: 1s;
+      .link_text {
+        text-decoration: none;
+        font-weight: bold;
+        color: inherit;
+      }
+    }
+  
+    .btn_no_link_style:hover {
+    }
+  
+    .spinner {
+      height: 50rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .header_page{
+      
+      display: flex;
+      align-items: center;
+    }
+  
+    .row_booklist {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  
+      .card_body {
+        
+        overflow:auto;
+  
+        .list_item{
+          border-radius: 10px;
+          // background-image: linear-gradient(to right,#cc2b5e,#753a88);
+        }
+  
+  
+        .book_row {}
+  
+        .book_name {
+          display: flex;
+          align-items: center;
+          font-size: 20px;
+        }
+      }
+    }
+  
+  
+  
+  
+  }
